@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    background: black;
+}
+.container h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 8% 0 0 3%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.container h1 span {
+    padding: 5px;
+    color: red;
+    border: solid 3px white;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+    margin-left: 3%;
+    margin-top: 2%;
+    padding: 10px;
+    border: 0;
+    font-size: 125%;
+    border-radius: 5px;
+}
+
+.container button {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2% 3%;
+    padding: 5px;
+    outline: none;
+    font-size: 100%;
+    background: red;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -20,7 +20,6 @@ function writePassword() {
     const addUpper = confirm("Do you want to include uppercase letters?");
     if (addUpper) {
         var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-        allChars = upperCase.concat(allChars);
         console.log("uppercase worked");
     } else {
         console.log("no uppercase");
@@ -29,7 +28,6 @@ function writePassword() {
     const addLower = confirm("Do you want to include lowercase letters?");
     if (addLower) {
         var lowerCase = "abcdefghijklmnopqrstuvwxyz".split("");
-        allChars = lowerCase.concat(allChars);
         console.log("lowercase worked");
     } else {
         console.log("no lowercase");
@@ -38,7 +36,6 @@ function writePassword() {
     const addNumbers = confirm("Do you want to include numbers?");
     if (addNumbers) {
         var numbers = "0123456789".split("");
-        allChars = numbers.concat(allChars);
         console.log("numbers worked");
     } else {
         console.log("no numbers");
@@ -47,17 +44,12 @@ function writePassword() {
     const addSymbols = confirm("Do you want to include symbols?");
     if (addSymbols) {
         var symbols = "!#$%&'()*+,-./".split("");
-        allChars = symbols.concat(allChars);
         console.log("symbols worked");
     } else {
         console.log("no symbols");
     };
-
-    for (var i = 0; i < passwordLength; i++) {
-        var actualPassword = allChars.push(Math.floor(Math.random() * allChars.length));
-    };
     
-    console.log(actualPassword);
+    console.log(allChars);
 }
 
 // Add event listener to generate button

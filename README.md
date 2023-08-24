@@ -11,5 +11,5 @@ website that requires login credentials or for email acoounts etc.
 Help for this project came from google, classes from the Rutgers bootcamp, youtube 
 as well as several classmates's code that gave me some inspiration.
 
-## Lisence
+## License
 Please check the README.
